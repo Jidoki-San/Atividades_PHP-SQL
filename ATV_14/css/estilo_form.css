@@ -1,0 +1,69 @@
+@import url("estilo_global.css");
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg_site);
+}
+
+.form_box h1{
+    color: var(--color_h1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#erro_tipo, #erro_tamanho{
+    display: none;
+    background-color: salmon;
+    color: var(--light_text);
+    padding: 5px;
+    text-align: center;
+}
+
+.form_box{
+    margin: auto;
+    padding: 20px;
+    background-color: var(--bg_formbox);
+    width: max-content;
+}
+
+.form_box label{
+    color: var(--dark_text);
+}
+
+.form_box input, select{
+    width: 310px;
+    height: 30px;
+}
+
+.i_text, textarea, select{
+    border: 1px solid var(--color_border);
+}
+
+.form_box input, textarea, select{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form_box textarea{
+    resize: none;
+    width: 310px;
+}
+
+.btt_form{
+    cursor: pointer;
+    border: none;
+    background-color: var(--btt_normal);
+    color: var(--light_text);
+    text-transform: uppercase;
+}
+
+.btt_form:hover{
+    transition: 0.5s;
+    background-color: var(--btt_hover);
+}
+
+
+.link_box{
+    text-align: center;
+}
