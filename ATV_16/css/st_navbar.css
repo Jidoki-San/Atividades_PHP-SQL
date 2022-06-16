@@ -1,0 +1,46 @@
+@import url("st_global.css");
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg_site);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: var(--bg_navbar);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: var(--light_text);
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li a:hover{
+    transition: 0.5s;
+    background-color: var(--item_hover);
+}
+
+#btt_sair{
+    float: right;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid var(--border_avatar);
+    margin: 0px 10px 0px 10px;
+}
