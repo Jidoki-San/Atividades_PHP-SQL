@@ -14,7 +14,7 @@
     <head>
         <title>Editar tarefa</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/es_form.css">
+        <link rel="stylesheet" href="../css/st_form.css">
     </head>
     <body>
         <form action="" method="post">
