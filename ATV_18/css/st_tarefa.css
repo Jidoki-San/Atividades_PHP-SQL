@@ -1,0 +1,46 @@
+@import url(st_global.css);
+
+table{
+    margin: auto;
+    text-align: center;
+    background-color: var(--bg_box);
+    border-spacing: 0px;
+}
+
+table td{
+    min-width: 120px;
+    max-width: 400px;
+    word-break: break-all;
+    padding: 5px;
+    margin: 0px;
+}
+
+.item_tr td{
+    border-bottom: 1px solid var(--border);
+    font-size: 18px;
+}
+
+.item_tr td{
+    font-size: 20px;
+    background-color: var(--bg_table);
+    color: var(--light_text);
+}
+
+.item_tr a{
+    color: var(--light_text);
+}
+
+.pen{
+    background-color: var(--st_pen);
+    color: var(--light_text);
+}
+
+.ini{
+    background-color: var(--st_con);
+    color: var(--light_text);
+}
+
+.con{
+    background-color: var(--st_con);
+    color: var(--light_text);
+}

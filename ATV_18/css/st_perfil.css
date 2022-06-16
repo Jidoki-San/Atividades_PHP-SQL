@@ -1,0 +1,35 @@
+@import url("st_global.css");
+
+.perfil_box{
+    margin: auto;
+    padding: 15px;
+    background-color: var(--bg_box);
+    width: max-content;
+    font-size: 18px;
+}
+
+.title_box{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.img_box img{
+    width: 320px;
+}
+
+.info_box{
+    text-align: center;
+}
+
+.info_box span{
+    display: block;
+    margin: 5px;
+    border-bottom: 1px solid var(--border);
+}
+
+label{
+    color: var(--title);
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
